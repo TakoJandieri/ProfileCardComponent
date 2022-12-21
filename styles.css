@@ -1,0 +1,147 @@
+* {
+    font-family: 'Kumbh Sans';
+}
+
+body {
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -45.7rem -40rem, 8.5rem 19rem;
+    background-attachment: fixed;
+    background-color: #19A1AE;  
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}   
+
+#container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 326px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    
+
+}
+
+#profiletop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#profileimg {
+    display: flex;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    margin-top: -17%;
+}
+
+#topimg {
+    width: 100%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    display: inline;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    padding-top: 4px;
+}
+
+.age {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 8.5px;
+    color: #6B7082;
+}
+
+.city {
+    display: inline;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B7082;
+    margin: 0px;
+   
+}
+
+#line {
+    width: 326px;
+    height: 1px;
+    background-color: #E8E9EC;
+    display: block;
+    margin-top: 28px;
+    
+    
+}
+
+#underline {
+    display: grid;
+    grid-template-columns: 50fr 50fr 50fr;
+    row-gap: 9px;
+    column-gap: 40px;
+    margin-left: 0; 
+}
+
+.grid-item {
+    padding-top: 24px;
+    font-family: 'Kumbh Sans';
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+}
+
+.grid-item1 {
+    padding-bottom: 20px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+}
+
+@media screen and (min-width: 500px){
+    body {
+        background-position: -18rem -32rem, 43.9rem 23rem;
+        max-width: 1440px;
+        max-height: 720px;
+      
+    }
+
+    #container {
+        width: 350px;
+    }
+
+    #profileimg {
+        margin-top: -15%;
+    }
+
+    
+    .name {
+        padding-top: 3px;
+    }
+
+}
